@@ -1,0 +1,12 @@
+[submodule "readability-preprocessing"]
+	path = readability-preprocessing
+	url = https://github.com/LuKrO2011/readability-preprocessing
+[submodule "readability-decreasing-heuristics"]
+	path = readability-decreasing-heuristics
+	url = https://github.com/LuKrO2011/readability-decreasing-heuristics
+[submodule "master-thesis-latex"]
+	path = master-thesis-latex
+	url = https://github.com/LuKrO2011/master-thesis-latex
+[submodule "readability-classifier"]
+	path = readability-classifier
+	url = https://github.com/LuKrO2011/readability-classifier

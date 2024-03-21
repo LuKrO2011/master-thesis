@@ -1,0 +1,33 @@
+= Master Thesis of Lukas Krodinger
+
+- Title: Advancing Code Readability: Mined & Modified Code for Dataset Generation
+- Author: Lukas Krodinger
+- Matriculation number: 89801
+- E-Mail: krodin03@ads.uni-passau.de
+
+This repository contains all parts of the master thesis separated into the following four submodules.
+There is an https://github.com/LuKrO2011/readability-preprocessing[visual overview] of all used scripts.
+
+== LaTeX Documents
+
+The https://github.com/LuKrO2011/master-thesis-latex[LaTeX] submodule stores all LaTeX documents created during the master thesis including the submitted master thesis.
+
+== Toolbox: Code Readability Classification
+
+The https://github.com/LuKrO2011/readability-preprocessing[toolbox] submodule contains the code for the following tasks:
+
+1. Work on https://huggingface.co/datasets/se2p/code-readability-merged[previous datasets]
+2. The creation of the https://huggingface.co/datasets/se2p/code-readability-krod[mined-and-modified] dataset
+3. Sampling for the conducted user survey
+4. Plotting of evaluation results
+
+== Checkstyle: Styler2.0
+The submodule https://github.com/sphrilix/styler2.0[Styler2.0] by Maximilian Jungwirth is used to filter files that adhere to their own checkstyle configuration. 
+
+== Readability Decreasing Heuristics (REDEC)
+
+https://github.com/LuKrO2011/readability-decreasing-heuristics[REDEC], also known as https://github.com/LuKrO2011/readability-decreasing-heuristics[Readability Decreasing Heuristics (RDH)], is a Java code processing tool specifically designed to reduce the readability of code intentionally. The primary objective is to generate training data for a code readability classifier.
+
+== Code Readability Classifier
+
+The https://github.com/LuKrO2011/readability-classifier[Code Readability Classifier] is a deep learning model to predict the readability of Java code snippets.
