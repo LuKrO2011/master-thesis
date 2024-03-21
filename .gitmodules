@@ -10,3 +10,6 @@
 [submodule "readability-classifier"]
 	path = readability-classifier
 	url = https://github.com/LuKrO2011/readability-classifier
+[submodule "styler2.0"]
+	path = styler2.0
+	url = https://github.com/sphrilix/styler2.0

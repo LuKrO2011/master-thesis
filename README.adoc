@@ -5,7 +5,7 @@
 - Matriculation number: 89801
 - E-Mail: krodin03@ads.uni-passau.de
 
-This repository contains all parts of the master thesis separated into the following four submodules.
+This repository contains all parts of the master thesis separated into the following submodules.
 There is an https://github.com/LuKrO2011/readability-preprocessing[visual overview] of all used scripts.
 
 == LaTeX Documents
